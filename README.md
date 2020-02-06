@@ -21,4 +21,4 @@
 4. Create a file ```workers.yml```. This file instructs ansible to first get the "cluster join" command from the master, and then run it on the 2 worker nodes. Run it using 
 ```ansible-playbook -i hosts workers.yml```
 
-That's it. You can now SSH into the master node, and run ```kubectl get nodes``` to verify if the master can detect the 2 workers nodes.
+That's it. You can now SSH into the master node, and run ```kubectl get nodes``` to verify if the master can detect the 2 worker nodes.
